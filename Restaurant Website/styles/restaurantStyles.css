@@ -1,0 +1,25 @@
+/*
+Creator: Ashley Shelden
+Date Created: November 3, 2018
+Date last modified
+*/
+
+h1 {
+  font-family: cursive;
+}
+
+section {
+  background-color: lightgray;
+}
+
+a:visited {
+  color: #e4c3ad;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  font-decoration: none;
+}

@@ -9,6 +9,27 @@
 <html lang="en">
   <head>
   <title>Menu</title>
+
+  <style>
+    thead {
+      font-size: 1.5em;
+    }
+    tr:nth-child(odd) {
+      background-color: #skyblue;
+    }
+    tr:nth-child(even) {
+      background-color: lightgray;
+    }
+    a:visited {
+      color: #e4c3ad;
+    }
+    a:hover {
+      font-weight: bold;
+    }
+    a:active {
+      font-decoration: none;
+    }
+  </style>
   </head>
 
   <main>
@@ -27,11 +48,14 @@
 
     <section>
       <table>
+        <thead>
         <tr>
           <th>Burger and Fries</th>
           <th>Hot Dog and Chips</th>
           <th>Italian Sausage and Peppers</th>
           </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>An American Classic!</td>
           <td>A Summer Classic!</td>
@@ -57,12 +81,16 @@
           <td>$10.95</td>
         <tr>
           <td><br/></td>
-          </tr>  
+          </tr>
+        </tbody>
+        <thead>
         <tr>
           <th>Tenderloin Sandwich and Chips</th>
           <th>House Salad</th>
           <th>Brisket Sandwich and Fries</th>
           </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>Really Hits the Spot!</td>
           <td>On the Lighter Side</td>
@@ -87,6 +115,31 @@
           <td>$8.95</td>
           <td>$6.95</td>
           <td>$7.95</td>
+        </tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>Beverages</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Root Beer</td>
+          <td>$3.00</td>
+        </tr>
+        <tr>
+          <td>Bottled Water</td>
+          <td>$1.25</td>
+        </tr>
+        <tr>
+          <td>Lemonade</td>
+          <td>$1.00</td>
+        </tr>
+        <tr>
+          <td>Iced Tea</td>
+          <td>$1.25</td>
+        </tr>
+      </tbody>
       </table>
       </section>
 

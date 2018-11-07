@@ -3,12 +3,39 @@
 <!--
   Name: Ashley Shelden
   Date Created: October 28, 2018
-  Most recent revision: October 30, 2018
+  Most recent revision: November 1, 2018
 -->
 
 <html lang="en">
   <head>
       <title>Ashley's Portfolio</title>
+      <link href="styles/main.css" rel="stylesheet" type="text/css" />
+      <style>
+        caption {
+          font-weight: bold;
+          font-size: 1.2em;
+          margin-bottom: 8px;
+        }
+        table, th, td {
+          border: 1px solid #0d1f2d;
+          border-collapse: collapse;
+          padding: 5px 10px;
+        }
+        table {
+          width: 75%;
+          margin: auto;
+        }
+        tr {
+          height: 30px;
+        }
+        th {
+          background-color: #546a7b;
+          color: #f2eded;
+        }
+        tr:nth-child(odd) {
+          background-color: #e4c3ad;
+        }
+      </style>
   </head>
 
   <main>
@@ -16,58 +43,63 @@
     <header>
     <h1>Portfolio for Ashley Shelden</h1>
   </header>
-    <hr/>
-    <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
 
       <nav>
           <a href="projects.html">Projects</a>
           <a href="contacts.html">Contact Me</a>
           <a href="testimonials.html">Testimonials</a>
+          <div class="clear-float"></div>
       </nav>
-    <hr/>
 
     <section>
 
       <article id="about-me">
       <h2><em>About Me</em></h2>
-      <a href="index.html"><img src="images/Ashley-Profile-Headshot.jpg" alt="Portrait of Ashley Shelden" /></a>
+      <a href="index.html"><img src="images/Ashley-Profile-Headshot.jpg" alt="Portrait of Ashley Shelden" width="250" style="float:left;" /></a>
         <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> <span style="background-color: lightblue; border: thin solid darkblue;"> Vivamus ullamcorper magna rhoncus diam scelerisque porttitor.</span> Quisque laoreet molestie dictum. Aenean ultricies, enim quis molestie aliquam, leo dolor viverra quam, vitae tristique libero enim eu velit. Aliquam feugiat ut lorem sit amet gravida. Ut eget molestie tellus. Proin id mauris eget enim accumsan ullamcorper ut eu orci. Duis non nisi urna. Cras mattis auctor diam, sed congue velit varius eget. Nam scelerisque nisl arcu, quis sagittis elit vulputate at. Sed tristique molestie urna non tempor. Vestibulum blandit quam sit amet massa vehicula lacinia.</p>
         <p>Integer laoreet cursus ligula, ut rutrum sapien suscipit ornare. Sed malesuada lacinia odio non vulputate. Mauris commodo erat vitae sapien imperdiet, vitae suscipit dolor interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Aliquam vel semper dui. Cras dignissim interdum efficitur. Ut sit amet nisl id felis ultrices malesuada ut sed nunc. Phasellus non velit id ligula sollicitudin congue eu quis dolor.</p>
+        <div class="clear-float"></div>
       </article>
 
       <article id="past-experiences">
       <h2><em>Past Experiences</em></h2>
       <img src="images/blue-leaves.jpg" alt="Blue autumnal leaves" />
-
+      <div class="right-content">
       <table>
         <caption>Employment History</caption>
-        <tr>
-          <th>Years of Employment</th>
-          <th>Title</th>
-          <th>Company</th>
-        </tr>
-        <tr>
-          <td>2017-2018</td>
-          <td>Children's Services Outreach Librarian</td>
-          <td>Jessamine County Public Library</td>
-        </tr>
-        <tr>
-          <td>2016-2017</td>
-          <td>Clerk/Page</td>
-          <td>Louisville Free Public Library</td>
-        </tr>
-        <tr>
-          <td>2014-2016</td>
-          <td>Library Assistant</td>
-          <td>Lexington Public Library</td>
+        <thead>
+          <tr>
+            <th>Years of Employment</th>
+            <th>Title</th>
+            <th>Company</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2017-2018</td>
+            <td>Children's Services Outreach Librarian</td>
+            <td>Jessamine County Public Library</td>
+          </tr>
+          <tr>
+            <td>2016-2017</td>
+            <td>Clerk/Page</td>
+            <td>Louisville Free Public Library</td>
+          </tr>
+          <tr>
+            <td>2014-2016</td>
+            <td>Library Assistant</td>
+            <td>Lexington Public Library</td>
+          </tr>
+        </tbody>
       </table>
-
+    </div>
+      <div class="clear-float"></div>
       </article>
 
       <article id="hobbies">
       <h2><em>Hobbies</em></h2>
       <img src="images/orange-leaves.jpg" alt="orange fall leaves against a blue sky" />
-
+      <div class="right-content">
       <ul>
         <li>Authors</li>
           <ol>
@@ -96,14 +128,14 @@
               <li>Gardening</li>
             </ul>
           </ul>
-
+        </div>
+          <div class="clear-float"></div>
       </article>
 
     </section>
     <hr/>
 
     <footer>
-      <hr />
       <p>&copy; 2020 Ashley Shelden. All rights reserved.</p>
     </footer>
 
