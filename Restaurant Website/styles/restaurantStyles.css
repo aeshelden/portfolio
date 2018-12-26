@@ -8,8 +8,8 @@ h1 {
   font-family: cursive;
 }
 
-section {
-  background-color: lightgray;
+.main-section {
+  background-color: aquamarine;
 }
 
 a:visited {
@@ -22,4 +22,29 @@ a:hover {
 
 a:active {
   font-decoration: none;
+}
+
+section,
+#carouselExampleSlidesOnly {
+  margin: 25px;
+}
+
+.table-img {
+  float:center;
+}
+
+table td + td {
+  border-left: 1px solid black; }
+
+table, td, th {
+  text-align: center;
+}
+
+form {
+ margin: 10px;
+ padding: 1em 0;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
 }
