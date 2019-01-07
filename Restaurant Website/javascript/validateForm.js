@@ -12,7 +12,7 @@
 // })
 
 $(document).ready(function() {
-$("#myForm").click(function(event) {
+$("#myForm").submit(function(event) {
 event.preventDefault();
 
 name = $("#name").val();
