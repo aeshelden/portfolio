@@ -1,8 +1,9 @@
 /*
 Creator: Ashley Shelden
 Date Created: November 3, 2018
-Date last modified
+Date last modified: January 10, 2019
 */
+
 
 h1 {
   font-family: cursive;
@@ -46,5 +47,6 @@ form {
 }
 
 .carousel-inner img {
-    margin: 0 auto;
+    margin: auto;
+    width: 50%;
 }

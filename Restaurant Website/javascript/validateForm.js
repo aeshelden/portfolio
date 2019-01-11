@@ -13,19 +13,19 @@
 
 $(document).ready(function() {
 $("#myForm").submit(function(event) {
-event.preventDefault();
+
 
 name = $("#name").val();
 email = $("#email").val();
-phone = $("#phone").val();
+phone = $("#phoneNumber").val();
 
 if (name.length == 0 || email.length == 0 || phone.length == 0) {
-alert("Please fill out all of the required information.");
-return false;
-}
-else {
-alert("Your message has been received! You'll hear from us shortly.");
-return true;
-}
+  event.preventDefault();
+  alert("Please fill out all of the required information.");
+  return false;
+} else {
+  alert("Your message has been received! You'll hear from us shortly.");
+  return true;
+  }
 });
 });
